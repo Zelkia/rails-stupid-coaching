@@ -1,0 +1,24 @@
+<h1 class="header">Stupid Coaching</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+      <span class="subtxt-sml">You asked:</span>
+      <div class="card question">
+        <span><%= @question %></span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-offset-4 col-sm-4">
+      <span class="subtxt-sml">Coach says:</span>
+      <div class="card answer">
+        <span><%= @answer %></span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-offset-4 col-sm-4">
+      <%= link_to "Ask again...", ask_path, :class => "btn-back" %>
+    </div>
+  </div>
+</div>

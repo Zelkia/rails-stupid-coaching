@@ -1,0 +1,61 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+  text-align: center;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #dddddd;
+  margin: 0;
+  padding: 50px;
+  color: #aaaaaa;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.card {
+  text-align: center;
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+}
+
+.question {
+  background-color: #efefef;
+  border-left: 15px solid #474747;
+  font-size: 24px;
+  color: #474747
+}
+
+.answer {
+  background-color: #efefef;
+  border-right: 15px solid #474747;
+  font-size: 24px;
+  color: #474747;
+}
+
+.btn-back {
+  padding:20px;
+  border-radius: 10px;
+  background-color: #5ebbe0;
+  color: white;
+  box-shadow: 1px 3px 3px #585858;
+  opacity: 0.8;
+  width: 50%;
+  align-items: center;
+  &:hover{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+  }
+}
+
+.subtxt-sml {
+  font-size: 16px;
+  position: relative;
+  top: -20px;
+  float: left;
+}
